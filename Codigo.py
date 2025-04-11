@@ -13,8 +13,8 @@ pyautogui.press("enter")
 
 time.sleep(3)
 
-#if platform.node() = "DESKTOP-CMTBKDM":
-pyautogui.click(x=327, y=632)
+if platform.node() == "DESKTOP-CMTBKDM":
+    pyautogui.click(x=327, y=632)
 
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
